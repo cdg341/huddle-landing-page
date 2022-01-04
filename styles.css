@@ -1,7 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
 body {
-    font-weight: 400;
     color: white;
-    background: url(/images/bg-desktop.svg);
-    background-color: hsl(257, 40%, 49%);
-    display: flex;
+    background: hsl(257, 40%, 49%);
+    margin: 0;
 }
+
+.logo {
+    padding: 40px 40px 80px 40px;
+}
+
+.picture {
+    padding-left: 50px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.text h1 {
+    font-size: 42px;
+    font-family: "Poppins";
+    font-weight: bolder;
+}
+
+.text p {
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+}
+ 
+.content {
+    max-width: 1440px;
+    margin: auto;
+    background:url(/images/bg-desktop.svg);
+    background-size: 1440px auto;
+    padding-bottom: 150px;
+}
+
+button {
+    margin-top: 15px;
+    font-size: 22px;
+    color: hsl(257, 40%, 49%);
+    padding: 10px 50px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px #363636;
+    border: 0;
+    
+}
+
+button:hover {
+    background:hsl(300, 69%, 71%);
+    color: white;
+    cursor: pointer;
+}
+
